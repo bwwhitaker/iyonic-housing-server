@@ -1,10 +1,18 @@
-// server.js
 const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 
 const app = express();
 const PORT = 3000;
+
+// Enable CORS for all routes
+app.use(cors({ origin: 'http://localhost:5173' }));
+
+// Landing Page
+app.get('/', (req, res) => {
+	res.send('Welcome to the Iyonic Housing API.');
+});
 
 // Load cities data
 const citiesByState = JSON.parse(fs.readFileSync(path.join(__dirname, 'cities.json'), 'utf-8'));
@@ -27,7 +35,7 @@ app.get('/api/cities', (req, res) => {
 		return res.status(404).json({ error: `No cities found for state: ${state}` });
 	}
 
-	res.json({ state, cities });
+	res.json({ cities });
 });
 
 app.listen(PORT, () => {
