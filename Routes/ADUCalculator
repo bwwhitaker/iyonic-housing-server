@@ -1,0 +1,60 @@
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+
+const router = express.Router();
+
+const pricesByState = JSON.parse(fs.readFileSync(path.join(__dirname, 'statePrices.json'), 'utf-8'));
+
+router.post('/', (req, res) => {
+	const payload = req.body;
+	console.log('Received payload:', payload);
+
+	const prices = pricesByState[payload.state];
+	console.log(prices);
+
+	const priceToBuild =
+		payload.attachedUnits * 750 * prices.Attached +
+		payload.detachedUnits * 750 * prices.Detached +
+		payload.basementSize * prices.Basement;
+
+	const propertyTaxes = priceToBuild * prices.propertyTaxes;
+
+	const rentalIncome =
+		payload.attachedUnits * 750 * (prices.rentPerSqFt + 0.5) +
+		payload.detachedUnits * 750 * (prices.rentPerSqFt + 0.75);
+	payload.basementSize * (prices.rentPerSqFt + 0.25);
+
+	console.log(`price to build ${priceToBuild}, taxes: ${propertyTaxes}, rental income: ${rentalIncome}`);
+
+	res.json({
+		message: 'Price Calculated Succesfully',
+		data: {
+			priceToBuild: priceToBuild,
+			propertyTaxes: propertyTaxes,
+			utilitiesAndMaintenance: utilitiesAndMaintenance,
+			rentalIncome: rentalIncome,
+		},
+	});
+});
+
+router.get('/prices', (req, res) => {
+	const statePrices = pricesByState;
+	res.json({ prices: statePrices });
+});
+
+router.get('/pricesByState', (req, res) => {
+	const state = req.query.state;
+	if (!state) {
+		return res.status(400).json({ error: 'State query parameter is required' });
+	}
+
+	const prices = pricesByState[state];
+	if (!prices) {
+		return res.status(404).json({ error: `No cities found for state: ${state}` });
+	}
+
+	res.json({ prices: prices });
+});
+
+module.exports = router;

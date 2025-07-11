@@ -1,0 +1,410 @@
+{
+	"Alabama": {
+		"Basement": 140,
+		"Attached": 200,
+		"Detached": 240,
+		"rentPerSqFt": 1.32225579053374,
+		"propertyTaxes": 0.0036,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Alaska": {
+		"Basement": 205,
+		"Attached": 255,
+		"Detached": 290,
+		"rentPerSqFt": 2.4236276849642,
+		"propertyTaxes": 0.0091,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Arizona": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 1.84749708963912,
+		"propertyTaxes": 0.0044,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Arkansas": {
+		"Basement": 140,
+		"Attached": 195,
+		"Detached": 232.5,
+		"rentPerSqFt": 1.25615212527964,
+		"propertyTaxes": 0.0053,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"California": {
+		"Basement": 205,
+		"Attached": 312.5,
+		"Detached": 376.25,
+		"rentPerSqFt": 3.07611241217799,
+		"propertyTaxes": 0.007,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Colorado": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 2.14628571428571,
+		"propertyTaxes": 0.005,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Connecticut": {
+		"Basement": 190,
+		"Attached": 265,
+		"Detached": 312.5,
+		"rentPerSqFt": 2.36170212765957,
+		"propertyTaxes": 0.0148,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Delaware": {
+		"Basement": 180,
+		"Attached": 250,
+		"Detached": 295,
+		"rentPerSqFt": 1.8298800436205,
+		"propertyTaxes": 0.005,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"District of Columbia": {
+		"Basement": 205,
+		"Attached": 312.5,
+		"Detached": 376.25,
+		"rentPerSqFt": 3.39276139410188,
+		"propertyTaxes": 0.0061,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Florida": {
+		"Basement": 140,
+		"Attached": 200,
+		"Detached": 240,
+		"rentPerSqFt": 2.03476482617587,
+		"propertyTaxes": 0.0074,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Georgia": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 1.603515625,
+		"propertyTaxes": 0.0077,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Hawaii": {
+		"Basement": 205,
+		"Attached": 322.5,
+		"Detached": 391.25,
+		"rentPerSqFt": 2.4236276849642,
+		"propertyTaxes": 0.0032,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Idaho": {
+		"Basement": 160,
+		"Attached": 205,
+		"Detached": 237.5,
+		"rentPerSqFt": 1.79826464208243,
+		"propertyTaxes": 0.0048,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Illinois": {
+		"Basement": 190,
+		"Attached": 250,
+		"Detached": 290,
+		"rentPerSqFt": 2.4236276849642,
+		"propertyTaxes": 0.0183,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Indiana": {
+		"Basement": 160,
+		"Attached": 220,
+		"Detached": 260,
+		"rentPerSqFt": 1.45474613686534,
+		"propertyTaxes": 0.0077,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Iowa": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 1.39400665926748,
+		"propertyTaxes": 0.0123,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Kansas": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 1.43171806167401,
+		"propertyTaxes": 0.0119,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Kentucky": {
+		"Basement": 140,
+		"Attached": 200,
+		"Detached": 240,
+		"rentPerSqFt": 1.41755888650964,
+		"propertyTaxes": 0.0073,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Louisiana": {
+		"Basement": 140,
+		"Attached": 200,
+		"Detached": 240,
+		"rentPerSqFt": 1.37431991294886,
+		"propertyTaxes": 0.0055,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Maine": {
+		"Basement": 160,
+		"Attached": 220,
+		"Detached": 260,
+		"rentPerSqFt": 1.45474613686534,
+		"propertyTaxes": 0.0094,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Maryland": {
+		"Basement": 155,
+		"Attached": 217.5,
+		"Detached": 258.75,
+		"rentPerSqFt": 2.08278145695364,
+		"propertyTaxes": 0.009,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Massachusetts": {
+		"Basement": 190,
+		"Attached": 265,
+		"Detached": 312.5,
+		"rentPerSqFt": 3.28425821064553,
+		"propertyTaxes": 0.0097,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Michigan": {
+		"Basement": 160,
+		"Attached": 220,
+		"Detached": 260,
+		"rentPerSqFt": 1.51416122004357,
+		"propertyTaxes": 0.0115,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Minnesota": {
+		"Basement": 170,
+		"Attached": 240,
+		"Detached": 285,
+		"rentPerSqFt": 1.81257014590348,
+		"propertyTaxes": 0.0099,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Mississippi": {
+		"Basement": 140,
+		"Attached": 190,
+		"Detached": 225,
+		"rentPerSqFt": 1.28840436075322,
+		"propertyTaxes": 0.0058,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Missouri": {
+		"Basement": 160,
+		"Attached": 225,
+		"Detached": 267.5,
+		"rentPerSqFt": 1.47333333333333,
+		"propertyTaxes": 0.0088,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Montana": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 1.97052154195011,
+		"propertyTaxes": 0.006,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Nebraska": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 1.42291220556745,
+		"propertyTaxes": 0.0143,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Nevada": {
+		"Basement": 170,
+		"Attached": 237.5,
+		"Detached": 281.25,
+		"rentPerSqFt": 1.71192052980132,
+		"propertyTaxes": 0.0049,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"New Hampshire": {
+		"Basement": 165,
+		"Attached": 227.5,
+		"Detached": 268.75,
+		"rentPerSqFt": 2.48919226393629,
+		"propertyTaxes": 0.0141,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"New Jersey": {
+		"Basement": 205,
+		"Attached": 282.5,
+		"Detached": 331.25,
+		"rentPerSqFt": 2.78959537572254,
+		"propertyTaxes": 0.0177,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"New Mexico": {
+		"Basement": 150,
+		"Attached": 195,
+		"Detached": 227.5,
+		"rentPerSqFt": 1.6875,
+		"propertyTaxes": 0.0061,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"New York": {
+		"Basement": 190,
+		"Attached": 265,
+		"Detached": 312.5,
+		"rentPerSqFt": 2.44617092119867,
+		"propertyTaxes": 0.0126,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"North Carolina": {
+		"Basement": 170,
+		"Attached": 230,
+		"Detached": 270,
+		"rentPerSqFt": 1.60102564102564,
+		"propertyTaxes": 0.0062,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"North Dakota": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 1.18633540372671,
+		"propertyTaxes": 0.0094,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Ohio": {
+		"Basement": 160,
+		"Attached": 225,
+		"Detached": 267.5,
+		"rentPerSqFt": 1.47,
+		"propertyTaxes": 0.0131,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Oklahoma": {
+		"Basement": 140,
+		"Attached": 195,
+		"Detached": 232.5,
+		"rentPerSqFt": 1.23050058207218,
+		"propertyTaxes": 0.0077,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Oregon": {
+		"Basement": 180,
+		"Attached": 250,
+		"Detached": 295,
+		"rentPerSqFt": 2.08530805687204,
+		"propertyTaxes": 0.0078,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Pennsylvania": {
+		"Basement": 165,
+		"Attached": 227.5,
+		"Detached": 268.75,
+		"rentPerSqFt": 1.98988764044944,
+		"propertyTaxes": 0.0119,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Rhode Island": {
+		"Basement": 190,
+		"Attached": 260,
+		"Detached": 305,
+		"rentPerSqFt": 2.37297297297297,
+		"propertyTaxes": 0.0105,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"South Carolina": {
+		"Basement": 170,
+		"Attached": 235,
+		"Detached": 277.5,
+		"rentPerSqFt": 1.5998023715415,
+		"propertyTaxes": 0.0047,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"South Dakota": {
+		"Basement": 150,
+		"Attached": 210,
+		"Detached": 250,
+		"rentPerSqFt": 1.28979143798024,
+		"propertyTaxes": 0.0099,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Tennessee": {
+		"Basement": 140,
+		"Attached": 200,
+		"Detached": 240,
+		"rentPerSqFt": 1.60842105263158,
+		"propertyTaxes": 0.0049,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Texas": {
+		"Basement": 140,
+		"Attached": 200,
+		"Detached": 240,
+		"rentPerSqFt": 1.64454443194601,
+		"propertyTaxes": 0.0136,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Utah": {
+		"Basement": 150,
+		"Attached": 205,
+		"Detached": 242.5,
+		"rentPerSqFt": 1.76169749727965,
+		"propertyTaxes": 0.0047,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Vermont": {
+		"Basement": 170,
+		"Attached": 235,
+		"Detached": 277.5,
+		"rentPerSqFt": 2.48919226393629,
+		"propertyTaxes": 0.0142,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Virginia": {
+		"Basement": 170,
+		"Attached": 235,
+		"Detached": 277.5,
+		"rentPerSqFt": 2.15926327193933,
+		"propertyTaxes": 0.0077,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Washington": {
+		"Basement": 175,
+		"Attached": 242.5,
+		"Detached": 286.25,
+		"rentPerSqFt": 2.4710843373494,
+		"propertyTaxes": 0.0075,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"West Virginia": {
+		"Basement": 160,
+		"Attached": 205,
+		"Detached": 237.5,
+		"rentPerSqFt": 1.23050058207218,
+		"propertyTaxes": 0.0048,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Wisconsin": {
+		"Basement": 170,
+		"Attached": 235,
+		"Detached": 277.5,
+		"rentPerSqFt": 1.74535519125683,
+		"propertyTaxes": 0.0125,
+		"utilitiesPerSqFoot": 0.6
+	},
+	"Wyoming": {
+		"Basement": 150,
+		"Attached": 205,
+		"Detached": 242.5,
+		"rentPerSqFt": 1.23050058207218,
+		"propertyTaxes": 0.0055,
+		"utilitiesPerSqFoot": 0.6
+	}
+}
